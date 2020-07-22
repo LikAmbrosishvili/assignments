@@ -1,0 +1,72 @@
+body{
+    background-color:rgba(220, 220, 220, 0.5);
+    text-align: center;
+   font-size: 25px ;
+    font-style:bold;
+    color: black;
+
+}
+h1{
+    text-align: center;
+    color:red;
+    font-size: 50px;
+    text-decoration-style:underline;
+}
+
+.button {
+border: 5px red solid;
+border-style: inherit;
+border-radius: 1.0em;
+background-color: YELLOW;
+    color:red;
+    font-size: 25px;
+}
+
+.button:hover{
+    background:red;
+    color:yellow;
+}
+.my-form label {
+    display:block;
+
+}
+
+.my-form input , .my-form textarea {
+    padding:8px;
+    width:25%;
+    font-size:20px;
+}
+
+.my-form input { 
+    color:black;
+}
+
+::placeholder {
+    color: grey;
+}
+.paint{
+    background-color: green;
+}
+.paint1{
+    background-color:aqua;
+}
+.paint2{
+    background-color: red;
+}
+.paint3{
+    background-color:yellow;
+}
+
+.paint4 {
+    background-color:purple;
+}
+.painttext{
+  background-color:rgb(202, 223, 162);
+}
+input:hover {
+    font-style: italic;
+}
+input:active{
+    background-color:white;
+}
+
