@@ -1,72 +1,201 @@
 body{
-    background-color:rgba(220, 220, 220, 0.5);
-    text-align: center;
-   font-size: 25px ;
-    font-style:bold;
-    color: black;
-
-}
-h1{
-    text-align: center;
-    color:red;
-    font-size: 50px;
-    text-decoration-style:underline;
+     background-color:white;
 }
 
-.button {
-border: 5px red solid;
-border-style: inherit;
-border-radius: 1.0em;
-background-color: YELLOW;
-    color:red;
-    font-size: 25px;
+.rectangle1 {
+     margin-right:50%;
+     margin-left:10%;
+     margin-top:16.14%;
+     border-top-left-radius: 8px;
+     border-top-right-radius: 8px;
+     height: 55px;
+     width: 677px;
+     background-color: #5265e8 ;
+     position: relative;
+} 
+
+.rectangle1 img{
+     margin-left:650px; 
+     top:20px;    
+     position: absolute;
+}
+.rectangle1 p{
+    position: absolute;
+     text-align:center;
+     color:white ;
+     font-size:20px;
+     width:677px;
+     padding-top:0px;
+     font-weight: 100;
+ 
 }
 
-.button:hover{
-    background:red;
-    color:yellow;
-}
-.my-form label {
-    display:block;
-
-}
-
-.my-form input , .my-form textarea {
-    padding:8px;
-    width:25%;
-    font-size:20px;
+.rectangle {
+     border-bottom-left-radius: 8px;
+     border-bottom-right-radius: 8px;
+     margin-left:10%;
+     height: 415px;
+     width: 677px;
+     background-color:   white ;
+     position: relative;
+     box-shadow: 1px 15px 10px  gainsboro;
 }
 
-.my-form input { 
+.search-box {
+    position: absolute;
+     top:26px;
+     left:22px; 
+}
+.search-btn{
+    position: absolute;
+     color:black;
+     width:50px;
+     height:39px;
+     border-radius:50%;
+     background:white;
+     margin-left:5px;
+     margin-top:8px;
+   
+  
+ 
+}
+
+input {
+     text-align: justify;
+     border:inside, 1px;
+     border-color: #eeeeee;
+     border-radius: 50px;
+     width: 570px;
+     height: 45px;
+     font-size:18px;
+     color:#9195b1;
+ }
+
+
+.search-txt {
+     position: absolute;
     color:black;
+     font-size:16px;
+     transition:0.4s;
+     line-height:40px;
+     padding-left:60px;
 }
 
-::placeholder {
-    color: grey;
-}
-.paint{
-    background-color: green;
-}
-.paint1{
-    background-color:aqua;
-}
-.paint2{
-    background-color: red;
-}
-.paint3{
-    background-color:yellow;
+.search-box img {
+
+      position: absolute;
+      height:20px;
+      width:20px;
+      padding-left: 15px;
+      padding-top:15px;
 }
 
-.paint4 {
-    background-color:purple;
-}
-.painttext{
-  background-color:rgb(202, 223, 162);
-}
-input:hover {
-    font-style: italic;
-}
-input:active{
-    background-color:white;
+h2{
+      font-weight: 100;
+      position: absolute;
+      padding-left:15px;
+      font-size:23px;
+      padding-top:80px;
 }
 
+.rectangle p{
+     margin-top:100px;
+     margin-left:22px;
+     color:#4a4a4a;
+     font-size:35px;     font-family:'Times New Roman', Times, serif;
+}
+
+.button{
+     border:none;
+     text-align: center;
+     height:35px;
+     width:135px;
+}
+   .button:hover {
+     background-color:#5265e8;
+     border: none;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     font-size: 15px;
+     cursor: pointer;
+     height:40px;
+     width:140px;
+     border-radius: 20px;
+
+   }
+
+
+.box3{
+   color:#2eca17;
+   margin:5px;
+}
+  
+.account1, .account2, .account3, .account4, .account5 { 
+     display:flex;
+     flex-grow: 5;
+     padding-left: 35px; 
+     padding-left:10px;
+  color:#9195b1;
+ background-color:whitesmoke;
+     font-size:18px;
+}
+
+.account1{
+    padding-top:140px; 
+       
+}
+
+.box1{
+     padding-top:10px;
+     padding-left:20px;
+     height:40px;
+     width:60px;
+}
+.box1 img{
+     border-radius:50%;
+     height:36px;
+     width:36px;
+     
+}
+.box2{
+     padding-top:15px;
+     height:40px;
+     width:171px;
+}
+.box3{
+     padding-top:10px;
+     height:40px;
+     width:71px;
+    
+}
+.box4{
+     padding-top:15px;
+    
+     height:40px;
+     width:171px;
+}
+.box5{
+     padding-top:10px;
+     height:40px;
+     width:100px;
+}
+
+.account2 .box3 {
+     color:#9195b1;  
+}
+.account1:hover, .account2:hover, .account3:hover,.account4:hover,.account5:hover {
+     background-color:white;
+     opacity:100%;
+     color: #5265e8;
+}
+
+.account1:focus, .account2:focus, .account3:focus,.account4:focus,.account5:focus{
+     background-color:white;
+     opacity:100%;
+     color: #5265e8;
+}
+
+.button .vers2 { display: none; }
+button:hover .vers1 { display: none; }
+button:hover .vers2 { display: inline; }
